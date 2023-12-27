@@ -10,15 +10,39 @@ import FadeIn from "../components/FadeIn";
 import './products.css'
 
 // New component for the product details popup
+
+// New component for the product details popup
+// New component for the product details popup
 const ProductDetailsPopup = ({ product, onClose }) => {
   return (
     <div className="popup">
+       <h1>{products.title}</h1>
       <div className="popup-content">
-        <img src={product.img} alt={product.title} className="popup-image" />
-        <h2>{product.title}</h2>
         <div className="popup-description">
-          {/* Add other details as needed */}
-          <p>Product details go here...</p>
+          {/* Display product types */}
+          {Array.isArray(product.types) ? (
+            // Handle types as an array
+            <div className="type-container">
+              {product.types.map((type, index) => (
+                <div key={index}>
+                  <img src={type.img} alt={type.title} className="type-image" />
+                  <h3>{type.title}</h3>
+                  {/* Add other details as needed */}
+                 
+                </div>
+              ))}
+            </div>
+          ) : (
+            // Handle types as an object
+            <div className="type-container">
+              <div>
+                <h3>{product.types.title}</h3>
+                <img src={product.types.img} alt={product.types.title} className="type-image" />
+                {/* Add other details as needed */}
+                <p>Product details go here...</p>
+              </div>
+            </div>
+          )}
         </div>
         <button onClick={onClose} className="popup-close-btn">
           Close
@@ -27,6 +51,7 @@ const ProductDetailsPopup = ({ product, onClose }) => {
     </div>
   );
 };
+
 
 // Modify the ProductCard component to handle click events
 const ProductCard = ({ product, delay, onClick }) => {
@@ -85,5 +110,7 @@ const Products = () => {
     </div>
   );
 };
+
+
 
 export default Products;

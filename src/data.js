@@ -40,21 +40,77 @@ export const products = [
     title: "Atlas mattress",
     price: "$65.99",
     img: '/img.jpg',
+    types: [
+      {
+      title:'Atlas Standard',
+      img:'/img.jpg'
+    },
+      {
+      title:'Atlas Pillow Top',
+      img:'/img.jpg'
+    },
+      {
+      title:'Atlas Euro Top',
+      img:'/img.jpg'
+    },
+  ]
   },
   {
     title: "Heera mattress",
     price: "$75.00",
     img: '/img.jpg',
+    types:[
+      {
+     title:'Heera Standard',
+     img:'/img.jpg'
+   },
+      {
+     title:'Heera Pillow Top',
+     img:'/img.jpg'
+   },
+      {
+     title:'Heera Euro Top',
+     img:'/img.jpg'
+   },
+ ]
   },
   {
     title: "OrthoX mattress",
     price: "$88.50",
     img: '/img.jpg',
+    types:[
+       {
+      title:'OrthoX Standard',
+      img:'/img.jpg'
+    },
+       {
+      title:'OrthoX pillow top',
+      img:'/img.jpg'
+    },
+       {
+      title:'OrthoX euro top',
+      img:'/img.jpg'
+    },
+  ]
   },
   {
     title: "Cresta mattress",
     price: "$88.50",
     img: '/img.jpg',
+    types:[
+      {
+     title:'Cresta Standard',
+     img:'/img.jpg'
+   },
+      {
+     title:'Cresta Pillow Top',
+     img:'/img.jpg'
+   },
+      {
+     title:'Cresta Euro Top',
+     img:'/img.jpg'
+   },
+ ]
   },
 ];
 
