@@ -40,7 +40,7 @@
 
 .type-image {
   max-width: 100%;
-  height: auto; /* Adjusted for responsive height */
+  height: 50vh; /* Adjusted for responsive height */
   border-radius: 5px;
   margin-top: 10px;
 }

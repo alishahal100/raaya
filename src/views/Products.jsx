@@ -16,8 +16,9 @@ import './products.css'
 const ProductDetailsPopup = ({ product, onClose }) => {
   return (
     <div className="popup">
-       <h1>{products.title}</h1>
+       
       <div className="popup-content">
+      <h1 className=' text-2xl font-bold'>{product.title}</h1>
         <div className="popup-description">
           {/* Display product types */}
           {Array.isArray(product.types) ? (
@@ -39,7 +40,7 @@ const ProductDetailsPopup = ({ product, onClose }) => {
                 <h3>{product.types.title}</h3>
                 <img src={product.types.img} alt={product.types.title} className="type-image" />
                 {/* Add other details as needed */}
-                <p>Product details go here...</p>
+                
               </div>
             </div>
           )}
@@ -58,7 +59,7 @@ const ProductCard = ({ product, delay, onClick }) => {
   return (
     <FadeIn key={product.id} delay={delay} direction="up">
       <div
-        className="group relative flex flex-col 2xl:ml-[50px] items-center justify-center w-[100%] md:w-[250px] h-[250px] md:h-[300px] bg-[#C1D0E4] rounded-[20px] overflow-hidden transition-transform transform hover:scale-105"
+        className="group relative flex flex-col 2xl:ml-[50px] items-center justify-center w-[100%] md:w-[250px] h-[350px] md:h-[300px] bg-[#C1D0E4] rounded-[20px] overflow-hidden transition-transform transform hover:scale-105"
         onClick={() => onClick(product)}
       >
         <img
@@ -66,7 +67,7 @@ const ProductCard = ({ product, delay, onClick }) => {
           alt=""
           className="w-full h-full object-cover transition-transform group-hover:scale-110"
         />
-        <div className="absolute bottom-0 w-full bg-white h-[80px] flex flex-col items-center justify-center text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity">
+        <div className="absolute bottom-0 w-full bg-white h-[80px] flex flex-col items-center justify-center pb-3 text-center p-4 ">
           <h2 className="text-fontBlack text-xl lg:text-lg font-medium mb-2">
             {product.title}
           </h2>

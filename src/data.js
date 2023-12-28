@@ -79,6 +79,7 @@ export const products = [
     price: "$88.50",
     img: '/img.jpg',
     types:[
+      
        {
       title:'OrthoX Standard',
       img:'/img.jpg'
