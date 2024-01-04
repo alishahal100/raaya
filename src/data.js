@@ -16,18 +16,18 @@ export const heroSubtitle =
 
 export const services = [
   {
-    title: "Free Shipping",
-    subtitle: "No charge for your delivery",
-    icon: shippingIcon,
-  },
-  {
-    title: "Quick Payment",
-    subtitle: "100% secure",
+    title: "Quality Mattresses",
+    subtitle: "Explore our range of premium mattresses",
     icon: paymentIcon,
   },
   {
-    title: "24/7 Support",
-    subtitle: "Don't hesitate to contact us",
+    title: "Ultimate Comfort",
+    subtitle: "Experience unmatched comfort with our mattresses",
+    icon: shippingIcon,
+  },
+  {
+    title: "Expert Customer Support",
+    subtitle: "Get assistance from our knowledgeable team",
     icon: supportIcon,
   },
 ];
