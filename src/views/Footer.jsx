@@ -19,7 +19,7 @@ const Footer = () => {
               {footerLinksColumnOne.map((item, index) => (
                 <div
                   key={index}
-                  className=" max-w-screen-md md:max-w-[340px flex-1 md:flex-auto"
+                  className=" max-w-screen-md md:max-w-[340px] flex-1 md:flex-auto"
                 >
                   <h6 className="mb-8 text-base lg:text-lg font-bold text-center xl:text-start">
                     {item.title}

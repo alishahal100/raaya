@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 // Your existing imports...
 import { productsTitle, productsBtnText, products } from "../data";
 import arrowIcon from "../assets/arrow-icon.svg";
-import starsIcon from "../assets/stars-icon.svg";
+//import starsIcon from "../assets/stars-icon.svg";
 import plusIcon from "../assets/plus-icon.svg";
 import FadeIn from "../components/FadeIn";
 import './products.css'
@@ -71,7 +71,7 @@ const ProductCard = ({ product, delay, onClick }) => {
           <h2 className="text-fontBlack text-xl lg:text-lg font-medium mb-2">
             {product.title}
           </h2>
-          <img src={starsIcon} alt="" />
+          <img src="" alt="" />
         </div>
       </div>
     </FadeIn>
