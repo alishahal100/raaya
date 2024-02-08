@@ -61,7 +61,7 @@ const Hero = () => {
     <div
       className="h-screen relative flex flex-col items-center"
       style={{
-        background: `url(${'/hero6.jpg'})`,
+        background: `url(${'/hero6.1.jpg'})`,
         backgroundPosition: "bottom",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
@@ -81,7 +81,7 @@ const Hero = () => {
       >
         <img className="w-[180px] h-[120px]  " src='/logo.png'  alt="" />
         <ul className="hidden md:flex items-center text-[#373d3f] gap-10 lg:gap-[68px] mr-[100px]">
-          <NavLink  to="services">Services</NavLink>
+          <NavLink  to="services"></NavLink>
           <NavLink to="products">Shop</NavLink>
           <NavLink to="Contact">Contact</NavLink>
           <button onClick={handleDownload} className=" w-auto px-10 text-lg">Get the Brochure</button>
@@ -129,7 +129,7 @@ const Hero = () => {
       Elevate your sleep with premium comfort.
     </h1>
   ) : (
-    <h1 className="text-center text-5xl leading-tight xs:text-[54px] text-[#373D3F] max-w-[1050px]">
+    <h1 className="text-center text-5xl leading-tight xs:text-[54px] text-[#373D3F] max-w-[1050px] pt-20">
       {heroTitle}
     </h1>
   )}

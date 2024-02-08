@@ -16,18 +16,18 @@ export const heroSubtitle =
 
 export const services = [
   {
-    title: "Quality Mattresses",
-    subtitle: "Explore our range of premium mattresses",
-    icon: paymentIcon,
-  },
-  {
-    title: "Ultimate Comfort",
-    subtitle: "Experience unmatched comfort with our mattresses",
+    title: "Free Shipping",
+    subtitle: "No charge for your delivery",
     icon: shippingIcon,
   },
   {
-    title: "Expert Customer Support",
-    subtitle: "Get assistance from our knowledgeable team",
+    title: "Quick Payment",
+    subtitle: "100% secure",
+    icon: paymentIcon,
+  },
+  {
+    title: "24/7 Support",
+    subtitle: "Don't hesitate to contact us",
     icon: supportIcon,
   },
 ];
@@ -39,77 +39,77 @@ export const products = [
   {
     title: "Atlas mattress",
     price: "$65.99",
-    img: '/hero.jpg',
+    img: '/atlas.jpg',
     types: [
       {
       title:'Atlas Standard',
-      img:'/bed.jpg'
+      img:'/atlas1.jpg'
     },
       {
       title:'Atlas Pillow Top',
-      img:'/bed14.jpg'
+      img:'/atlas2.jpg'
     },
       {
       title:'Atlas Euro Top',
-      img:'/bed12.jpg'
+      img:'/atlas3.jpg'
     },
   ]
   },
   {
     title: "Heera mattress",
     price: "$75.00",
-    img: '/hero1.jpg',
+    img: '/heera.jpg',
     types:[
       {
      title:'Heera Standard',
-     img:'/bed13.jpg'
+     img:'/heera1.jpg'
    },
       {
      title:'Heera Pillow Top',
-     img:'/bed4.jpg'
+     img:'/heera2.jpg'
    },
       {
      title:'Heera Euro Top',
-     img:'/bed5.jpg'
+     img:'/heera3.jpg'
    },
  ]
   },
   {
     title: "OrthoX mattress",
     price: "$88.50",
-    img: '/hero5.jpg',
+    img: '/ortho.jpg',
     types:[
       
        {
       title:'OrthoX Standard',
-      img:'/bed6.jpg'
+      img:'/ortho1.jpg'
     },
        {
       title:'OrthoX pillow top',
-      img:'/bed7.jpg'
+      img:'/ortho2.jpg'
     },
        {
       title:'OrthoX euro top',
-      img:'/bed8.jpg'
+      img:'/ortho3.jpg'
     },
   ]
   },
   {
     title: "Cresta mattress",
     price: "$88.50",
-    img: '/bed15.jpg',
+    img: '/cresta.jpg',
     types:[
       {
      title:'Cresta Standard',
-     img:'/bed9.jpg'
+     img:'/cresta1.jpg'
    },
       {
      title:'Cresta Pillow Top',
-     img:'/bed10.jpg'
+     img:'/cresta2.jpg'
    },
       {
      title:'Cresta Euro Top',
-     img:'/bed11.jpg'
+     img:'/cresta3.jpg'
    },
  ]
   },
