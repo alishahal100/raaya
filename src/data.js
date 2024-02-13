@@ -37,44 +37,91 @@ export const productsBtnText = "See Colection";
 
 export const products = [
   {
+    id:1,
     title: "Atlas mattress",
     price: "$65.99",
     img: '/atlas.jpg',
+    inner :' Bonnel spring hard felt High density PU foam & Memofry foam ',
     types: [
       {
       title:'Atlas Standard',
-      img:'/atlas1.jpg'
+      img:'/atlas1.jpg',
+      details:[
+      {
+        
+        img:'/atlas1.jpg',
+        sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
+        
+      }
+      ]
     },
       {
       title:'Atlas Pillow Top',
-      img:'/atlas2.jpg'
+      img:'/atlas2.jpg',
+      details:[
+        {
+          img:'/atlas1.jpg',
+          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
+          
+        }
+        ]
     },
       {
       title:'Atlas Euro Top',
-      img:'/atlas3.jpg'
+      img:'/atlas3.jpg',
+      details:[
+        {
+          img:'/atlas1.jpg',
+          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
+          
+        }
+        ]
     },
   ]
   },
   {
+    id:2,
     title: "Heera mattress",
     price: "$75.00",
     img: '/heera.jpg',
     types:[
       {
      title:'Heera Standard',
-     img:'/heera1.jpg'
+     img:'/heera1.jpg',
+     details:[
+        {
+          img:'/atlas1.jpg',
+          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
+          
+        }
+        ]
    },
       {
      title:'Heera Pillow Top',
-     img:'/heera2.jpg'
+     img:'/heera2.jpg',
+     details:[
+        {
+          img:'/atlas1.jpg',
+          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
+          
+        }
+        ]
    },
       {
      title:'Heera Euro Top',
-     img:'/heera3.jpg'
+     img:'/heera3.jpg',
+     details:[
+        {
+          img:'/atlas1.jpg',
+          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
+          
+        }
+        ]
    },
  ]
   },
   {
+    id:3,
     title: "OrthoX mattress",
     price: "$88.50",
     img: '/ortho.jpg',
@@ -82,37 +129,205 @@ export const products = [
       
        {
       title:'OrthoX Standard',
-      img:'/ortho1.jpg'
+      img:'/ortho1.jpg',
+      details:[
+        {
+          img:'/atlas1.jpg',
+          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
+          
+        }
+        ]
     },
        {
       title:'OrthoX pillow top',
-      img:'/ortho2.jpg'
+      img:'/ortho2.jpg',
+      details:[
+        {
+          img:'/atlas1.jpg',
+          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
+          
+        }
+        ]
     },
        {
       title:'OrthoX euro top',
-      img:'/ortho3.jpg'
+      img:'/ortho3.jpg',
+      details:[
+        {
+          img:'/atlas1.jpg',
+          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
+          
+        }
+        ]
     },
   ]
   },
   {
+    id:4,
     title: "Cresta mattress",
     price: "$88.50",
     img: '/cresta.jpg',
     types:[
       {
      title:'Cresta Standard',
-     img:'/cresta1.jpg'
+     img:'/cresta1.jpg',
+     details:[
+        {
+          img:'/atlas1.jpg',
+          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
+          
+        }
+        ]
    },
       {
      title:'Cresta Pillow Top',
-     img:'/cresta2.jpg'
+     img:'/cresta2.jpg',
+     details:[
+        {
+          img:'/atlas1.jpg',
+          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
+          
+        }
+        ]
    },
       {
      title:'Cresta Euro Top',
-     img:'/cresta3.jpg'
+     img:'/cresta3.jpg',
+     details:[
+        {
+          img:'/atlas1.jpg',
+          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
+          
+        }
+        ]
    },
  ]
   },
+  {
+    id:5,
+    title: "mediline mattress",
+    price: "$88.50",
+    img: '/mediline.jpg',
+    types:[
+      {
+     title:'mediline Standard',
+     img:'/mediline1.jpg',
+     details:[
+        {
+          img:'/atlas1.jpg',
+          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
+          
+        }
+        ]
+    
+   },
+      {
+     title:'mediline Pillow Top',
+     img:'/mediline2.jpg',
+     details:[
+        {
+          img:'/atlas1.jpg',
+          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
+          
+        }
+        ]
+   },
+      {
+     title:'mediline Euro Top',
+     img:'/mediline3.jpg',
+     details:[
+        {
+          img:'/atlas1.jpg',
+          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
+          
+        }
+        ]
+   },
+ ]
+  },
+  {
+    id:6,
+    title: "Heera deluxe",
+    price: "$88.50",
+    img: '/cresta.jpg',
+    types:[
+      {
+     title:'Heera Standard',
+     img:'/cresta1.jpg',
+     details:[
+        {
+          img:'/atlas1.jpg',
+          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
+          
+        }
+        ]
+   },
+      {
+     title:'Heera Pillow Top',
+     img:'/cresta2.jpg',
+     details:[
+        {
+          img:'/atlas1.jpg',
+          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
+          
+        }
+        ]
+   },
+      {
+     title:'Heera Euro Top',
+     img:'/cresta3.jpg',
+     details:[
+        {
+          img:'/atlas1.jpg',
+          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
+          
+        }
+        ]
+   },
+ ]
+  },
+  {
+    id:7,
+    title: "Natural latex",
+    price: "$88.50",
+    img: '/cresta.jpg',
+    types:[
+      {
+     title:'Natural Standard',
+     img:'/cresta1.jpg',
+     details:[
+        {
+          img:'/atlas1.jpg',
+          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
+          
+        }
+        ]
+   },
+      {
+     title:'Natural Pillow Top',
+     img:'/cresta2.jpg',
+     details:[
+        {
+          img:'/atlas1.jpg',
+          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
+          
+        }
+        ]
+   },
+      {
+     title:'Natural Euro Top',
+     img:'/cresta3.jpg',
+     details:[
+        {
+          img:'/atlas1.jpg',
+          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
+          
+        }
+        ]
+   },
+ ]
+  },
+ 
 ];
 
 
