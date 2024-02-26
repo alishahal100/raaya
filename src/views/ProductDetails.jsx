@@ -1,8 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { products } from "../data";
-import NavLink from "../components/NavLink";
 import Footer from "./Footer";
+import Navbar from "./navbar";
 
 const ProductDetails = () => {
   const { productId } = useParams();
@@ -34,25 +34,7 @@ const ProductDetails = () => {
 
   return (
     <div className="w-screen  flex flex-col text-center">
-      <div className="flex flex-row justify-between mt-10  mx-auto">
-      <img className="w-[180px] h-[120px]" src="/logo.png" alt="" />
-      <ul className="hidden md:flex items-center  text-[#373d3f] gap-10 lg:gap-[68px] ">
-        <li>
-          <NavLink to="services">Services</NavLink>
-        </li>
-        <li>
-          <NavLink to="products">Shop</NavLink>
-        </li>
-        <li>
-          <NavLink to="contact">Contact</NavLink>
-        </li>
-        <li>
-          <button onClick={handleDownload} className="w-auto px-10 text-lg">
-            Get the Brochure
-          </button>
-        </li>
-      </ul>
-    </div>
+     <Navbar/>
       <h1 className="product-title">{product.title}</h1>
       <div className=" w-full flex flex-col px-20 lg:flex-row  justify-between items-center mt-8">
 
