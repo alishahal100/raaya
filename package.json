@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "firebase": "^10.6.0",
     "framer-motion": "^10.16.1",
+    "lucide-react": "^0.336.0",
     "owl.carousel": "^2.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
