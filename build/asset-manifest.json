@@ -1,29 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.8601d4bd.css",
-    "main.js": "/static/js/main.a2bc3dfd.js",
+    "main.css": "/static/css/main.fb4730df.css",
+    "main.js": "/static/js/main.e9d7efca.js",
     "static/media/hero-image.svg": "/static/media/hero-image.85952dc7e81cdac6d72190da8a038d34.svg",
     "static/media/produc-two.svg": "/static/media/produc-two.28324fefed1f938ccf9e9cf360d76a69.svg",
     "static/media/product-three.svg": "/static/media/product-three.c782ac880dc16ceabec31b46fc950e7a.svg",
     "static/media/product-one.svg": "/static/media/product-one.3cf2808731acccde53b004dd19adff3c.svg",
+    "static/media/Merriweather-Light.ttf": "/static/media/Merriweather-Light.43706a2883eb57c79284.ttf",
     "static/media/logo.svg": "/static/media/logo.dcae1c7462b7ba592e02cba7efdd4020.svg",
     "static/media/sun-icon.svg": "/static/media/sun-icon.ebf11615f2131bd681ecfbf0b5146364.svg",
     "static/media/plant-icon.svg": "/static/media/plant-icon.0d3deaa02b3b71412a6541a082732ddd.svg",
     "static/media/free-shiping-icon.svg": "/static/media/free-shiping-icon.961f3ac68d7722be202fdcc5d0eb077f.svg",
     "static/media/temperature-icon.svg": "/static/media/temperature-icon.fb3f0f39e9098d52b50ab23df236f40f.svg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/quick-payment-icon.svg": "/static/media/quick-payment-icon.7e10c6082d0ce1fc0cbc404cbd0b08b9.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/cart-icon.svg": "/static/media/cart-icon.4b7eb7ca868ec748347d0af85e5a1379.svg",
     "static/media/search-icon.svg": "/static/media/search-icon.cbb8c4c646df360e0a746bfb8d165c39.svg",
     "static/media/water-icon.svg": "/static/media/water-icon.873e5d9fd1351f630be19ec189bfcdfb.svg",
     "static/media/support-icon.svg": "/static/media/support-icon.3610a444e19f18e1453e2c82b21c3319.svg",
-    "static/media/plus-icon.svg": "/static/media/plus-icon.e529947252f085ca4d8d8c53b114a5d0.svg",
-    "static/media/arrow-icon.svg": "/static/media/arrow-icon.54c7d5fb3d06b6569320fcec854edaea.svg",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.8601d4bd.css.map": "/static/css/main.8601d4bd.css.map",
-    "main.a2bc3dfd.js.map": "/static/js/main.a2bc3dfd.js.map"
+    "main.fb4730df.css.map": "/static/css/main.fb4730df.css.map",
+    "main.e9d7efca.js.map": "/static/js/main.e9d7efca.js.map"
   },
   "entrypoints": [
-    "static/css/main.8601d4bd.css",
-    "static/js/main.a2bc3dfd.js"
+    "static/css/main.fb4730df.css",
+    "static/js/main.e9d7efca.js"
   ]
 }

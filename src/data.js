@@ -10,7 +10,8 @@ import sunIcon from "./assets/sun-icon.svg";
 import waterIcon from "./assets/water-icon.svg";
 import temperatureIcon from "./assets/temperature-icon.svg";
 
-export const heroTitle = "Experience the Perfect Sleep with Our Premium Mattresses";
+export const heroTitle =
+  "Experience the Perfect Sleep with Our Premium Mattresses";
 export const heroSubtitle =
   "Discover the ideal mattress for your ultimate comfort and restful sleep, all with us.";
 
@@ -37,309 +38,583 @@ export const productsBtnText = "See Colection";
 
 export const products = [
   {
-    id:1,
-    title: "Atlas mattress",
+    id: 1,
+    title: "Atlas ",
     price: "$65.99",
-    img: '/atlas.jpg',
-    inner :' Bonnel spring hard felt High density PU foam & Memofry foam ',
+    img: "/atlas.jpg",
+    quote:
+      "This Orthopaedic mattress category includes strong high-density rebonded foam.\n It also features super soft foam for perfect body support and natural spine alignment.",
+    inner:
+      " Bonnel coil spring, hard cotton felt High density PU foam, super soft foam& Rebonded foam",
     types: [
       {
-      title:'Atlas Standard',
-      img:'/atlas1.jpg',
-      details:[
+        title: "Atlas Standard",
+        img: "/atlas1.jpg",
+        details: [
+          {
+            img: "/atlas1.jpg",
+            sizes: [
+              "72 x 36",
+              "75 x 36",
+              "78 x 36",
+              "72 x 48",
+              "75 x 48",
+              "78 x 48",
+              "72 x 60",
+              "75 x 60",
+              "78 x 60",
+              "72 x 72",
+              "75 x 72",
+              "78 x 72",
+            ],
+          },
+        ],
+      },
       {
-        
-        img:'/atlas1.jpg',
-        sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
-        
-      }
-      ]
-    },
+        title: "Atlas Pillow Top",
+        img: "/atlas2.jpg",
+        details: [
+          {
+            img: "/atlas1.jpg",
+            sizes: [
+              "72 x 36",
+              "75 x 36",
+              "78 x 36",
+              "72 x 48",
+              "75 x 48",
+              "78 x 48",
+              "72 x 60",
+              "75 x 60",
+              "78 x 60",
+              "72 x 72",
+              "75 x 72",
+              "78 x 72",
+            ],
+          },
+        ],
+      },
       {
-      title:'Atlas Pillow Top',
-      img:'/atlas2.jpg',
-      details:[
-        {
-          img:'/atlas1.jpg',
-          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
-          
-        }
-        ]
-    },
-      {
-      title:'Atlas Euro Top',
-      img:'/atlas3.jpg',
-      details:[
-        {
-          img:'/atlas1.jpg',
-          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
-          
-        }
-        ]
-    },
-  ]
+        title: "Atlas Euro Top",
+        img: "/atlas3.jpg",
+        details: [
+          {
+            img: "/atlas1.jpg",
+            sizes: [
+              "72 x 36",
+              "75 x 36",
+              "78 x 36",
+              "72 x 48",
+              "75 x 48",
+              "78 x 48",
+              "72 x 60",
+              "75 x 60",
+              "78 x 60",
+              "72 x 72",
+              "75 x 72",
+              "78 x 72",
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
-    id:2,
-    title: "Heera mattress",
+    id: 2,
+    title: "Heera ",
     price: "$75.00",
-    img: '/heera.jpg',
-    types:[
+    img: "/heera.jpg",
+    quote:
+      "This Orthopaedic mattress category includes strong high-density rebonded foam.\n It also features super soft foam for perfect body support and natural spine alignment.",
+    inner:
+      " Bonnel coil spring, hard cotton felt High density PU foam, super soft foam& Rebonded foam",
+    types: [
       {
-     title:'Heera Standard',
-     img:'/heera1.jpg',
-     details:[
-        {
-          img:'/atlas1.jpg',
-          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
-          
-        }
-        ]
-   },
+        title: "Heera Standard",
+        img: "/heera1.jpg",
+        details: [
+          {
+            img: "/atlas1.jpg",
+            sizes: [
+              "72 x 36",
+              "75 x 36",
+              "78 x 36",
+              "72 x 48",
+              "75 x 48",
+              "78 x 48",
+              "72 x 60",
+              "75 x 60",
+              "78 x 60",
+              "72 x 72",
+              "75 x 72",
+              "78 x 72",
+            ],
+          },
+        ],
+      },
       {
-     title:'Heera Pillow Top',
-     img:'/heera2.jpg',
-     details:[
-        {
-          img:'/atlas1.jpg',
-          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
-          
-        }
-        ]
-   },
+        title: "Heera Pillow Top",
+        img: "/heera2.jpg",
+        details: [
+          {
+            img: "/atlas1.jpg",
+            sizes: [
+              "72 x 36",
+              "75 x 36",
+              "78 x 36",
+              "72 x 48",
+              "75 x 48",
+              "78 x 48",
+              "72 x 60",
+              "75 x 60",
+              "78 x 60",
+              "72 x 72",
+              "75 x 72",
+              "78 x 72",
+            ],
+          },
+        ],
+      },
       {
-     title:'Heera Euro Top',
-     img:'/heera3.jpg',
-     details:[
-        {
-          img:'/atlas1.jpg',
-          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
-          
-        }
-        ]
-   },
- ]
+        title: "Heera Euro Top",
+        img: "/heera3.jpg",
+        details: [
+          {
+            img: "/atlas1.jpg",
+            sizes: [
+              "72 x 36",
+              "75 x 36",
+              "78 x 36",
+              "72 x 48",
+              "75 x 48",
+              "78 x 48",
+              "72 x 60",
+              "75 x 60",
+              "78 x 60",
+              "72 x 72",
+              "75 x 72",
+              "78 x 72",
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
-    id:3,
-    title: "OrthoX mattress",
+    id: 3,
+    title: "OrthoX ",
     price: "$88.50",
-    img: '/ortho.jpg',
-    types:[
-      
-       {
-      title:'OrthoX Standard',
-      img:'/ortho1.jpg',
-      details:[
-        {
-          img:'/atlas1.jpg',
-          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
-          
-        }
-        ]
-    },
-       {
-      title:'OrthoX pillow top',
-      img:'/ortho2.jpg',
-      details:[
-        {
-          img:'/atlas1.jpg',
-          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
-          
-        }
-        ]
-    },
-       {
-      title:'OrthoX euro top',
-      img:'/ortho3.jpg',
-      details:[
-        {
-          img:'/atlas1.jpg',
-          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
-          
-        }
-        ]
-    },
-  ]
+    img: "/ortho.jpg",
+    quote:
+      "This Orthopaedic mattress category includes strong high-density rebonded foam.\n It also features super soft foam for perfect body support and natural spine alignment.",
+    inner:
+      " Bonnel coil spring, hard cotton felt High density PU foam, super soft foam& Rebonded foam",
+    types: [
+      {
+        title: "OrthoX Standard",
+        img: "/ortho1.jpg",
+        details: [
+          {
+            img: "/atlas1.jpg",
+            sizes: [
+              "72 x 36",
+              "75 x 36",
+              "78 x 36",
+              "72 x 48",
+              "75 x 48",
+              "78 x 48",
+              "72 x 60",
+              "75 x 60",
+              "78 x 60",
+              "72 x 72",
+              "75 x 72",
+              "78 x 72",
+            ],
+          },
+        ],
+      },
+      {
+        title: "OrthoX pillow top",
+        img: "/ortho2.jpg",
+        details: [
+          {
+            img: "/atlas1.jpg",
+            sizes: [
+              "72 x 36",
+              "75 x 36",
+              "78 x 36",
+              "72 x 48",
+              "75 x 48",
+              "78 x 48",
+              "72 x 60",
+              "75 x 60",
+              "78 x 60",
+              "72 x 72",
+              "75 x 72",
+              "78 x 72",
+            ],
+          },
+        ],
+      },
+      {
+        title: "OrthoX euro top",
+        img: "/ortho3.jpg",
+        details: [
+          {
+            img: "/atlas1.jpg",
+            sizes: [
+              "72 x 36",
+              "75 x 36",
+              "78 x 36",
+              "72 x 48",
+              "75 x 48",
+              "78 x 48",
+              "72 x 60",
+              "75 x 60",
+              "78 x 60",
+              "72 x 72",
+              "75 x 72",
+              "78 x 72",
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
-    id:4,
-    title: "Cresta mattress",
+    id: 4,
+    title: "Cresta ",
     price: "$88.50",
-    img: '/cresta.jpg',
-    types:[
+    img: "/cresta.jpg",
+    quote:
+      "This Orthopaedic mattress category includes strong high-density rebonded foam.\n It also features super soft foam for perfect body support and natural spine alignment.",
+    inner:
+      " Bonnel coil spring, hard cotton felt High density PU foam, super soft foam& Rebonded foam",
+    types: [
       {
-     title:'Cresta Standard',
-     img:'/cresta1.jpg',
-     details:[
-        {
-          img:'/atlas1.jpg',
-          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
-          
-        }
-        ]
-   },
+        title: "Cresta Standard",
+        img: "/cresta1.jpg",
+        details: [
+          {
+            img: "/atlas1.jpg",
+            sizes: [
+              "72 x 36",
+              "75 x 36",
+              "78 x 36",
+              "72 x 48",
+              "75 x 48",
+              "78 x 48",
+              "72 x 60",
+              "75 x 60",
+              "78 x 60",
+              "72 x 72",
+              "75 x 72",
+              "78 x 72",
+            ],
+          },
+        ],
+      },
       {
-     title:'Cresta Pillow Top',
-     img:'/cresta2.jpg',
-     details:[
-        {
-          img:'/atlas1.jpg',
-          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
-          
-        }
-        ]
-   },
+        title: "Cresta Pillow Top",
+        img: "/cresta2.jpg",
+        details: [
+          {
+            img: "/atlas1.jpg",
+            sizes: [
+              "72 x 36",
+              "75 x 36",
+              "78 x 36",
+              "72 x 48",
+              "75 x 48",
+              "78 x 48",
+              "72 x 60",
+              "75 x 60",
+              "78 x 60",
+              "72 x 72",
+              "75 x 72",
+              "78 x 72",
+            ],
+          },
+        ],
+      },
       {
-     title:'Cresta Euro Top',
-     img:'/cresta3.jpg',
-     details:[
-        {
-          img:'/atlas1.jpg',
-          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
-          
-        }
-        ]
-   },
- ]
+        title: "Cresta Euro Top",
+        img: "/cresta3.jpg",
+        details: [
+          {
+            img: "/atlas1.jpg",
+            sizes: [
+              "72 x 36",
+              "75 x 36",
+              "78 x 36",
+              "72 x 48",
+              "75 x 48",
+              "78 x 48",
+              "72 x 60",
+              "75 x 60",
+              "78 x 60",
+              "72 x 72",
+              "75 x 72",
+              "78 x 72",
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
-    id:5,
-    title: "mediline mattress",
+    id: 5,
+    title: "Mediline ",
     price: "$88.50",
-    img: '/mediline.jpg',
-    types:[
+    img: "/heera3.jpg",
+    inner: "High density re- bonded. Foam &super soft foam",
+    quote:
+      "This Orthopaedic mattress category includes strong high-density rebonded foam.\n It also features super soft foam for perfect body support and natural spine alignment.",
+    inner:
+      " Bonnel coil spring, hard cotton felt High density PU foam, super soft foam& Rebonded foam",
+    types: [
       {
-     title:'mediline Standard',
-     img:'/mediline1.jpg',
-     details:[
-        {
-          img:'/atlas1.jpg',
-          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
-          
-        }
-        ]
-    
-   },
+        title: "Mediline Standard",
+        img: "/cresta1.jpg",
+        details: [
+          {
+            img: "/atlas1.jpg",
+            sizes: [
+              "72 x 36",
+              "75 x 36",
+              "78 x 36",
+              "72 x 48",
+              "75 x 48",
+              "78 x 48",
+              "72 x 60",
+              "75 x 60",
+              "78 x 60",
+              "72 x 72",
+              "75 x 72",
+              "78 x 72",
+            ],
+          },
+        ],
+      },
       {
-     title:'mediline Pillow Top',
-     img:'/mediline2.jpg',
-     details:[
-        {
-          img:'/atlas1.jpg',
-          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
-          
-        }
-        ]
-   },
+        title: "Mediline Pillow Top",
+        img: "/cresta2.jpg",
+        details: [
+          {
+            img: "/atlas1.jpg",
+            sizes: [
+              "72 x 36",
+              "75 x 36",
+              "78 x 36",
+              "72 x 48",
+              "75 x 48",
+              "78 x 48",
+              "72 x 60",
+              "75 x 60",
+              "78 x 60",
+              "72 x 72",
+              "75 x 72",
+              "78 x 72",
+            ],
+          },
+        ],
+      },
       {
-     title:'mediline Euro Top',
-     img:'/mediline3.jpg',
-     details:[
-        {
-          img:'/atlas1.jpg',
-          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
-          
-        }
-        ]
-   },
- ]
+        title: "Mediline Euro Top",
+        img: "/cresta3.jpg",
+        details: [
+          {
+            img: "/atlas1.jpg",
+            sizes: [
+              "72 x 36",
+              "75 x 36",
+              "78 x 36",
+              "72 x 48",
+              "75 x 48",
+              "78 x 48",
+              "72 x 60",
+              "75 x 60",
+              "78 x 60",
+              "72 x 72",
+              "75 x 72",
+              "78 x 72",
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
-    id:6,
+    id: 6,
     title: "Heera deluxe",
     price: "$88.50",
-    img: '/cresta.jpg',
-    types:[
+    img: "/cresta.jpg",
+    quote:
+    "This Orthopaedic mattress category includes strong high-density rebonded foam.\n It also features super soft foam for perfect body support and natural spine alignment.",
+  inner:
+    " Bonnel coil spring, hard cotton felt High density PU foam, super soft foam& Rebonded foam",
+    types: [
       {
-     title:'Heera Standard',
-     img:'/cresta1.jpg',
-     details:[
-        {
-          img:'/atlas1.jpg',
-          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
-          
-        }
-        ]
-   },
+        title: "Heera Standard",
+        img: "/cresta1.jpg",
+        details: [
+          {
+            img: "/atlas1.jpg",
+            sizes: [
+              "72 x 36",
+              "75 x 36",
+              "78 x 36",
+              "72 x 48",
+              "75 x 48",
+              "78 x 48",
+              "72 x 60",
+              "75 x 60",
+              "78 x 60",
+              "72 x 72",
+              "75 x 72",
+              "78 x 72",
+            ],
+          },
+        ],
+      },
       {
-     title:'Heera Pillow Top',
-     img:'/cresta2.jpg',
-     details:[
-        {
-          img:'/atlas1.jpg',
-          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
-          
-        }
-        ]
-   },
+        title: "Heera Pillow Top",
+        img: "/cresta2.jpg",
+        details: [
+          {
+            img: "/atlas1.jpg",
+            sizes: [
+              "72 x 36",
+              "75 x 36",
+              "78 x 36",
+              "72 x 48",
+              "75 x 48",
+              "78 x 48",
+              "72 x 60",
+              "75 x 60",
+              "78 x 60",
+              "72 x 72",
+              "75 x 72",
+              "78 x 72",
+            ],
+          },
+        ],
+      },
       {
-     title:'Heera Euro Top',
-     img:'/cresta3.jpg',
-     details:[
-        {
-          img:'/atlas1.jpg',
-          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
-          
-        }
-        ]
-   },
- ]
+        title: "Heera Euro Top",
+        img: "/cresta3.jpg",
+        details: [
+          {
+            img: "/atlas1.jpg",
+            sizes: [
+              "72 x 36",
+              "75 x 36",
+              "78 x 36",
+              "72 x 48",
+              "75 x 48",
+              "78 x 48",
+              "72 x 60",
+              "75 x 60",
+              "78 x 60",
+              "72 x 72",
+              "75 x 72",
+              "78 x 72",
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
-    id:7,
-    title: "Natural latex",
+    id: 7,
+    title: "Natural  latex",
     price: "$88.50",
-    img: '/cresta.jpg',
-    types:[
+    img: "/cresta.jpg",
+    quote:
+    "This Orthopaedic mattress category includes strong high-density rebonded foam.\n It also features super soft foam for perfect body support and natural spine alignment.",
+  inner:
+    " Bonnel coil spring, hard cotton felt High density PU foam, super soft foam& Rebonded foam",
+
+    types: [
       {
-     title:'Natural Standard',
-     img:'/cresta1.jpg',
-     details:[
-        {
-          img:'/atlas1.jpg',
-          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
-          
-        }
-        ]
-   },
+        title: "Natural Standard",
+        img: "/cresta1.jpg",
+        details: [
+          {
+            img: "/atlas1.jpg",
+            sizes: [
+              "72 x 36",
+              "75 x 36",
+              "78 x 36",
+              "72 x 48",
+              "75 x 48",
+              "78 x 48",
+              "72 x 60",
+              "75 x 60",
+              "78 x 60",
+              "72 x 72",
+              "75 x 72",
+              "78 x 72",
+            ],
+          },
+        ],
+      },
       {
-     title:'Natural Pillow Top',
-     img:'/cresta2.jpg',
-     details:[
-        {
-          img:'/atlas1.jpg',
-          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
-          
-        }
-        ]
-   },
+        title: "Natural Pillow Top",
+        img: "/cresta2.jpg",
+        details: [
+          {
+            img: "/atlas1.jpg",
+            sizes: [
+              "72 x 36",
+              "75 x 36",
+              "78 x 36",
+              "72 x 48",
+              "75 x 48",
+              "78 x 48",
+              "72 x 60",
+              "75 x 60",
+              "78 x 60",
+              "72 x 72",
+              "75 x 72",
+              "78 x 72",
+            ],
+          },
+        ],
+      },
       {
-     title:'Natural Euro Top',
-     img:'/cresta3.jpg',
-     details:[
-        {
-          img:'/atlas1.jpg',
-          sizes:['72 x 36', '75 x 36', '78 x 36', '72 x 48' , '75 x 48' , '78 x 48', '72 x 60' , '75 x 60' , '78 x 60' , '72 x 72' , '75 x 72' , '78 x 72'      ]
-          
-        }
-        ]
-   },
- ]
+        title: "Natural Euro Top",
+        img: "/cresta3.jpg",
+        details: [
+          {
+            img: "/atlas1.jpg",
+            sizes: [
+              "72 x 36",
+              "75 x 36",
+              "78 x 36",
+              "72 x 48",
+              "75 x 48",
+              "78 x 48",
+              "72 x 60",
+              "75 x 60",
+              "78 x 60",
+              "72 x 72",
+              "75 x 72",
+              "78 x 72",
+            ],
+          },
+        ],
+      },
+    ],
   },
- 
 ];
-
-
 
 export const newsletter = "Newsletter";
 
 export const footerLinksColumnOne = [
   {
     title: "Support",
-    links: ["About Us", "Careers", ],
+    links: ["About Us", "Careers"],
   },
-  
 ];
 
 export const footerLinksColumnTwo = [

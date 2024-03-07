@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="max-w-[1490px] mx-auto px-10 py-[120px]">
         <div className="flex flex-col items-center xl:items-start xl:flex-row xl:justify-between gap-12">
           <div className="w-full xl:w-auto flex flex-col items-center xl:items-start">
-            <img src="/logo.png" className=" w-[250px] h-[150px]" alt="" />
+            <img src="/logo.png" className="w-[100px]  lg:w-[200px] lg:h-[100px]" alt="" />
           </div>
 
           <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-[120px] w-full">
@@ -74,7 +74,7 @@ const Footer = () => {
         <div className="w-full h-[1px] bg-black my-12" />
 
         <h6 className=" text-center text-base lg:text-lg">
-          &copy; Raya - All rights reserved
+          &copy; Raya  - All rights reserved
         </h6>
       </div>
     </div>

@@ -58,6 +58,9 @@ const Hero = () => {
   };
 
   return (
+  <div className="flex flex-col gap-32">
+
+
     <div
       className="h-screen relative flex flex-col items-center "
       style={{
@@ -107,6 +110,8 @@ const Hero = () => {
 
 
       <div className="absolute h-[50px] xs:h-[150px] bottom-0 w-full bg-[linear-gradient(180deg,_#ffffff00_0%,_#FFF_100%)]" />
+    </div>
+      
     </div>
   );
 };

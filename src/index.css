@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/public/font/Merriweather-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
@@ -11,5 +17,6 @@
 html,
 body {
   overflow-x: hidden;
-  background-color: #F0F0F0;
+  background-color: white;
+  font-family: 'Gilroy';
 }
