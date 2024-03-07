@@ -88,7 +88,7 @@ function Navbar() {
             <FaMapMarkerAlt className="cursor-pointer h-5 w-5.5" />
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=%2B919995982770"
+            href="https://api.whatsapp.com/send?phone=%2B919207217770"
             target="_blank"
           >
             <AiOutlineWhatsApp className=" cursor-pointer h-6 w-6" />
