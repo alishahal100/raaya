@@ -97,13 +97,23 @@ const ProductDetails = () => {
             
           );
         })}
-         <div className="lg:h-screen w-screen flex flex-col mt-20 lg:mt-0 items-center lg:flex-row px-20 gap-10 py-10 bg-[#f7f5f3]">
-                      <img src="/inner.jpg" alt="raaya mattres layers" className=" lg:w-1/2 lg:h-1/2 " />
-                      <div className="flex flex-col lg:w-1/4 gap-5 lg:ml-36">
-                            <h1 className="text-sm lg:text-xl">Inner </h1>
-                            <p className="text-sm lg:text-lg">{product.inner}</p>
-                      </div>
-                </div>
+        <div className="lg:h-screen w-screen flex flex-col mt-20 lg:mt-0 items-center lg:flex-row px-20 gap-10 py-10 bg-[#f7f5f3]">
+    {product.innerImg ? (
+        <div className="flex">
+            <img src={product.innerImg} alt="raaya mattress layers" className="lg:w-1/2 lg:h-1/2" />
+            <div className="flex flex-col lg:w-1/4 gap-5 lg:ml-36">
+                <h1 className="text-sm lg:text-xl">Inner</h1>
+                <p className="text-sm lg:text-lg">{product.inner}</p>
+            </div>
+        </div>
+    ) : (
+        <div className="flex flex-col lg:w-1/4 gap-5 lg:ml-36">
+            <h1 className="text-sm lg:text-xl">Inner : </h1>
+            <p className="text-sm lg:text-lg">{product.inner}</p>
+        </div>
+    )}
+</div>
+
       </div>
 
       <Footer />

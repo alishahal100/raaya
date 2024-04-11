@@ -72,9 +72,7 @@ function Navbar() {
                 <li className="text-lg">About Us</li>
               </Link>
             )}
-
-            <li className="text-lg ">FAQ</li>
-            <li className="text-lg " onClick={handleDownload}>
+         <li className="text-lg " onClick={handleDownload}>
               Brochure
             </li>
           </ul>
@@ -128,7 +126,7 @@ function Navbar() {
               <FaMapMarkerAlt className="h-5 w-5" />
             </a>
             <a
-              href="https://api.whatsapp.com/send?phone=%2B919995982770"
+             href="https://api.whatsapp.com/send?phone=%2B919207217770"
               target="_blank"
             >
               <AiOutlineWhatsApp className="h-5 w-5" />
@@ -145,7 +143,6 @@ function Navbar() {
             <ul>
               <li className="text-lg mb-2">Products</li>
               <li className="text-lg mb-2">About Us</li>
-              <li className="text-lg mb-2">FAQ</li>
               <li className="text-lg mb-2" onClick={handleDownload}>
                 Brochure
               </li>

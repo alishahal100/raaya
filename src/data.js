@@ -42,10 +42,11 @@ export const products = [
     title: "Atlas ",
     price: "$65.99",
     img: "/atlas.jpg",
+
     quote:
-      "This Orthopaedic mattress category includes strong high-density rebonded foam.\n It also features super soft foam for perfect body support and natural spine alignment.",
+    "Precision-engineered for unparalleled comfort and support. Crafted with premium materials and innovative design, it contours to your body for restorative sleep. Say goodbye to restless nights with motion isolation technology. Choose your perfect comfort level and elevate your sleep with Atlas. " ,
     inner:
-      " Bonnel coil spring, hard cotton felt High density PU foam, super soft foam& Rebonded foam",
+    "Bonnel spring hard felt High  density PU foam & Memory foam  ", 
     types: [
       {
         title: "Atlas Standard",
@@ -147,10 +148,11 @@ export const products = [
     title: "Heera ",
     price: "$75.00",
     img: "/heera.jpg",
+    innerImg:"/inner.jpg",
     quote:
-      "This Orthopaedic mattress category includes strong high-density rebonded foam.\n It also features super soft foam for perfect body support and natural spine alignment.",
+    " Discover the Heera mattress, meticulously crafted for exceptional comfort and support. Engineered with premium materials and advanced design, it contours to your body's shape for a restorative night's sleep. Bid farewell to sleep disturbances with its motion isolation technology. Find your ideal comfort level and elevate your sleep with Heera.", 
     inner:
-      " Bonnel coil spring, hard cotton felt High density PU foam, super soft foam& Rebonded foam",
+    "pocketed spring hard cotton felt high PU foam, super soft foam",
     types: [
       {
         title: "Heera Standard",
@@ -216,7 +218,7 @@ export const products = [
       },
       {
         title: "Heera Euro Top",
-        img: "/heera3.jpg",
+        img: "/heerasub3.jpg",
         details: [
           {
             img: "/atlas1.jpg",
@@ -251,11 +253,11 @@ export const products = [
     id: 3,
     title: "OrthoX ",
     price: "$88.50",
-    img: "/ortho.jpg",
+    img: "/heeradeluxe.jpg",
     quote:
-      "This Orthopaedic mattress category includes strong high-density rebonded foam.\n It also features super soft foam for perfect body support and natural spine alignment.",
+    "Mattresses in this series are produced with utmost care and accuracy using the mixture of 'Natural Coir Fibers' 'PU Foam and Rebonded Foam ',Moreover the use of high quality 'Knitted Jacquard Fabrics' for exterior cover give you great relief from the heat and gives a cool feeling while lying down. ",  
     inner:
-      " Bonnel coil spring, hard cotton felt High density PU foam, super soft foam& Rebonded foam",
+    "High Density Re-Bonded Foam & High Density Rubberized Coir", 
     types: [
       {
         title: "OrthoX Standard",
@@ -359,11 +361,11 @@ export const products = [
     id: 4,
     title: "Cresta ",
     price: "$88.50",
-    img: "/cresta.jpg",
+    img: "/cresta-new.jpg",
     quote:
-      "This Orthopaedic mattress category includes strong high-density rebonded foam.\n It also features super soft foam for perfect body support and natural spine alignment.",
+    "This golden range of mattresses has high density PU foam and rebonded foam in it's core. The highly elastic bonnel springs offer good flexiblity and all of them come with super fine fabric covering high quality 'Knitted Jacquard Fabric' ", 
     inner:
-      " Bonnel coil spring, hard cotton felt High density PU foam, super soft foam& Rebonded foam",
+      " Bonnel coil spring, hard cotton felt High density PU foam, super soft foam & Rebonded foam",
     types: [
       {
         title: "Cresta Standard",
@@ -462,15 +464,14 @@ export const products = [
     title: "Mediline ",
     price: "$88.50",
     img: "/heera3.jpg",
-    inner: "High density re- bonded. Foam &super soft foam",
+    inner: "High density re-bonded Foam & super soft foam",
     quote:
       "This Orthopaedic mattress category includes strong high-density rebonded foam.\n It also features super soft foam for perfect body support and natural spine alignment.",
-    inner:
-      " Bonnel coil spring, hard cotton felt High density PU foam, super soft foam& Rebonded foam",
+      
     types: [
       {
         title: "Mediline Standard",
-        img: "/cresta1.jpg",
+        img: "/medline1.jpg",
         details: [
           {
             img: "/atlas1.jpg",
@@ -502,7 +503,7 @@ export const products = [
       },
       {
         title: "Mediline Pillow Top",
-        img: "/cresta2.jpg",
+        img: "/medline2.jpg",
         details: [
           {
             img: "/atlas1.jpg",
@@ -534,7 +535,7 @@ export const products = [
       },
       {
         title: "Mediline Euro Top",
-        img: "/cresta3.jpg",
+        img: "/mediline3.jpg",
         details: [
           {
             img: "/atlas1.jpg",
@@ -570,15 +571,16 @@ export const products = [
     id: 6,
     title: "Heera deluxe",
     price: "$88.50",
-    img: "/cresta.jpg",
+    img: "/heeradeluxesub1.jpg",
+    innerImg:"/inner.jpg",
     quote:
-    "This Orthopaedic mattress category includes strong high-density rebonded foam.\n It also features super soft foam for perfect body support and natural spine alignment.",
-  inner:
-    " Bonnel coil spring, hard cotton felt High density PU foam, super soft foam& Rebonded foam",
+    "Indulge in the epitome of luxury with the Heera Deluxe mattress. Meticulously crafted with premium materials and sophisticated design, it delivers unparalleled comfort and support. Its advanced construction ensures personalized contouring for a rejuvenating night's sleep. Say goodbye to disruptions with cutting-edge motion isolation technology. Elevate your sleep to new heights of opulence with the Heera Deluxe mattress.",
+    inner:
+  "Pocketed spring hard cotton felt High density PU foam. Super soft foam & memory foam",
     types: [
       {
         title: "Memory Foam",
-        img: "/cresta1.jpg",
+        img: "/heeradeluxe1.jpg",
         details: [
           {
             img: "/atlas1.jpg",
@@ -608,7 +610,7 @@ export const products = [
       },
       {
         title: "Heera Pillow Top",
-        img: "/cresta2.jpg",
+        img: "/heeradeluxe2.jpg",
         details: [
           {
             img: "/atlas1.jpg",
@@ -638,7 +640,7 @@ export const products = [
       },
       {
         title: "Heera Euro Top",
-        img: "/cresta3.jpg",
+        img: "/heeradeluxe3.jpg",
         details: [
           {
             img: "/atlas1.jpg",
@@ -672,16 +674,17 @@ export const products = [
     id: 7,
     title: "Natural  latex",
     price: "$88.50",
-    img: "/cresta.jpg",
+    img: "/img-new.jpg",
+    innerImg:"/latexinner.jpg",
     quote:
-    "This Orthopaedic mattress category includes strong high-density rebonded foam.\n It also features super soft foam for perfect body support and natural spine alignment.",
-  inner:
-    " Bonnel coil spring, hard cotton felt High density PU foam, super soft foam& Rebonded foam",
+   "Unveil the essence of pure comfort with the Natural Latex mattress. Crafted from the finest natural materials, this mattress offers luxurious support and breathability for a rejuvenating sleep experience. Embrace the natural contouring properties of latex, providing personalized comfort tailored to your body's needs. Say farewell to sleep disruptions with its motion isolation capabilities. Experience the epitome of comfort and sustainability with the Natural Latex mattress.",
+    inner:
+    " High Density Natural Pin Core Latex Foam",
 
     types: [
       {
         title: "Natural Standard",
-        img: "/cresta1.jpg",
+        img: "/natural1.jpg",
         details: [
           {
             img: "/atlas1.jpg",
@@ -713,7 +716,7 @@ export const products = [
       },
       {
         title: "Natural Pillow Top",
-        img: "/cresta2.jpg",
+        img: "/natural2.jpg",
         details: [
           {
             img: "/atlas1.jpg",
@@ -745,7 +748,7 @@ export const products = [
       },
       {
         title: "Natural Euro Top",
-        img: "/cresta3.jpg",
+        img: "/natural3.jpg",
         details: [
           {
             img: "/atlas1.jpg",
